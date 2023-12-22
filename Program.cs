@@ -11,7 +11,7 @@ namespace SomeMeth
         private int tableLenght;
         char renderSumbol;
 
-        public Render(List<int[]> numbersForRender, int lenghtOfTable = 100, string sumbol = " ")
+        public Render(List<int[]> numbersForRender, int lenghtOfTable = 100, string sumbol = "_")
         {
             
             numbers = numbersForRender;
